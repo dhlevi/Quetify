@@ -1,0 +1,29 @@
+{
+  "name": "quetify-cli",
+  "version": "1.0.0",
+  "description": "CLI interface for MongoDB Quetify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dhlevi",
+  "license": "(MIT OR Apache-2.0)",
+  "bin": {
+    "quetify": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dhlevi/quetify.git"
+  },
+  "keywords": [
+    "mongodb",
+    "queues"
+  ],
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "mongodb": "^3.6.5",
+    "os": "^0.1.1",
+    "clui": "^0.3.6",
+    "yargs": "^16.2.0"
+  }
+}
